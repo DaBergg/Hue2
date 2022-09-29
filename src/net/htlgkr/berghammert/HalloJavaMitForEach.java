@@ -13,9 +13,13 @@ public class HalloJavaMitForEach {
         list.add("Mit");
         list.add("For");
         list.add("Each");
+        /*
         for (String s: list
              ) {
             System.out.println(s);
         }
+
+         */
+        list.forEach(s -> System.out.println(s));
     }
 }
