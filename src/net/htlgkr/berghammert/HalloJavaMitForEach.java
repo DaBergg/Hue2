@@ -20,6 +20,7 @@ public class HalloJavaMitForEach {
         }
 
          */
-        list.forEach(s -> System.out.println(s));
+        //list.forEach(s -> System.out.println(s));
+        list.forEach(System.out::print);
     }
 }
